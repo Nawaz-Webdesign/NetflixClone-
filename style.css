@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  background-image: url(Media/bg\ netflix.png);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  padding-top: 10px;
+}
+
+img {
+  height: 50px;
+  width: auto;
+}
+
+.box {
+  position: absolute;
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.emailbar {
+  margin-top: 20px;
+}
+
+.separation {
+  height: 3px;
+  background-color: gray;
+}
+
+.signin {
+  padding: 3px 12px;
+  background-color: red;
+  color: aliceblue;
+  border-radius: 5px;
+  font: bold;
+}
+
+.Started {
+  padding: 8px 20px;
+  background-color: red;
+  color: aliceblue;
+  border-radius: 5px;
+  font: bold;
+  font-size: 20px;
+}
+
+.main input {
+  border-radius: 3px;
+  font: bold;
+  font-size: 20px;
+  padding: 8px 30px;
+  background-color: rgba(23, 23, 23, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.769);
+  color: rgba(255, 255, 255, 0.769);
+}
+
+.main input:hover {
+  border-color: rgba(255, 255, 255, 0.991);
+  color: rgba(255, 255, 255, 0.991);
+}
+
+.langauge {
+  padding: 3px 8px;
+  background-color: rgba(23, 23, 23, 0.4);
+  color: rgba(255, 255, 255, 0.769);
+  border: 2px solid rgba(255, 255, 255, 0.769);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: bolder;
+}
+
+.langauge:hover {
+  border-color: rgba(255, 255, 255, 0.991);
+  color: rgba(255, 255, 255, 0.991);
+}
+
+input::placeholder,
+input {
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+  height: auto;
+  margin: auto;
+}
+.TV {
+  width: 500px;
+  position: relative;
+  height: 400px;
+}
+
+.TV img {
+  width: 600px;
+  height: 400px;
+  display: block;
+
+  position: relative;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TV-video {
+  position: absolute;
+  height: 210px;
+  width: 450px;
+  top: 85px;
+  left: 70px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.stranger img {
+  width: 500px;
+  height: 400px;
+  display: block;
+}
+.fh {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d;
+  font-size: 18px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+}
+
+.signin2 {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mail2 input {
+  height: 30px;
+  width: 550px;
+  border-radius: 3px;
+  font: bold;
+  font-size: 20px;
+  padding: 8px 30px;
+  background-color: rgba(23, 23, 23, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.769);
+  color: rgba(255, 255, 255, 0.769);
+}
+
+.mail2 input:hover {
+  border-color: rgba(255, 255, 255, 0.991);
+  color: rgba(255, 255, 255, 0.991);
+}
+.signin2 {
+  top: 5px;
+  margin-bottom: 20px;
+}
+
+.mail2 button {
+  height: auto;
+  padding: 12px 25px;
+  background-color: red;
+  color: aliceblue;
+  border-radius: 5px;
+  font: bold;
+  font-size: 20px;
+}
+
+/*------------------------------FOOTER-------------------------------*/
+
+.footer {
+  padding: 50px 15% 10px;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column a {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.column a:hover {
+  color: rgba(255, 255, 255, 0.991);
+  text-decoration: underline;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.langauge2 {
+  margin-top: 20px;
+  padding: 5px 12px;
+  background-color: rgba(23, 23, 23, 0.4);
+  color: rgba(255, 255, 255, 0.769);
+  border: 2px solid rgba(255, 255, 255, 0.769);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: bolder;
+  border-radius: 5px;
+}
+
+.langauge2:hover {
+  border-color: rgba(255, 255, 255, 0.991);
+  color: rgba(255, 255, 255, 0.991);
+}
+
+/*---------------------------Media qury---------------------------*/
+
+@media only screen and (max-width: 400px) {
+  .img {
+    width: 100px;
+  }
+}
