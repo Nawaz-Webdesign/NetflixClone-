@@ -268,8 +268,75 @@ input {
 
 /*---------------------------Media qury---------------------------*/
 
-@media only screen and (max-width: 400px) {
-  .img {
-    width: 100px;
+@media only screen and (max-width: 600px) {
+  .nav {
+    margin: 0 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav img {
+    height: 35px;
+  }
+
+  .langauge,
+  .signin {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .box h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .box span {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .emailbar input {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .Started {
+    font-size: 16px;
+    padding: 6px 15px;
+  }
+
+  .first {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .TV img,
+  .stranger img {
+    width: 100%;
+    height: auto;
+  }
+
+  .TV-video {
+    width: 80%;
+    height: auto;
+    top: 20%;
+    left: 10%;
+  }
+
+  .mail2 input {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .mail2 button {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
