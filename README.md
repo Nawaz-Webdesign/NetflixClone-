@@ -1,10 +1,12 @@
 # NetflixClone-
 Developed a responsive Netflix homepage clone using HTML and CSS .Designed UI similar to original platform including navigation bar, banner and content sections. Ensure smooth and Error free performance. 
 # Features
-Clean and modern user interface
-Movie thumbnails and layout similar to Netflix
-Smooth alignment using Flexbox
-Proper spacing, positioning, and styling
+- Clean and modern user interface  
+- Movie thumbnails and layout similar to Netflix  
+- Smooth alignment using Flexbox  
+- Proper spacing, positioning, and styling  
+- Responsive design with media queries for mobile and desktop  
+- Favicon added for professional polish
 # What I Used
 In this project, I have used most of the important CSS properties such as:
 Flexbox for layout and alignment
